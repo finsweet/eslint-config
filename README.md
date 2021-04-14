@@ -1,6 +1,6 @@
 # eslint-config
 
-Finsweet's official configuration for ESLint
+Finsweet's official configuration for ESLint.
 
 ## How to start
 
