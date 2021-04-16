@@ -48,6 +48,9 @@ module.exports = {
 
     // disallow the unary operators ++ and --
     'no-plusplus': ['warn', { allowForLoopAfterthoughts: true }],
+
+    // require the use of === and !==
+    eqeqeq: ['error', 'always', { null: 'ignore' }],
   },
-  ignorePatterns: ['dist/'], // Avoid linting on the dist folder
+  ignorePatterns: ['dist/', '.eslintrc.js'], // Avoid linting on the dist folder and, ironically, this file too
 };
