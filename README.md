@@ -10,8 +10,8 @@ First, install all the devDependencies:
 npm i -D eslint prettier typescript @finsweet/eslint-config eslint-config-prettier eslint-plugin-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
-Then, create a `.eslintrc.js` file with the following configuration:
+Then, create a `.eslintrc.json` file with the following configuration:
 
-```javascript
-module.exports = { extends: ['@finsweet'] };
+```json
+{ "extends": ["@finsweet"] }
 ```
