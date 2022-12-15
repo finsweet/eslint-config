@@ -8,6 +8,9 @@ module.exports = {
     'plugin:@typescript-eslint/recommended', // Uses the recommended rules from the @typescript-eslint/eslint-plugin
     'plugin:prettier/recommended',
   ],
+
+  plugins: ['simple-import-sort'],
+
   rules: {
     'prettier/prettier': [
       'error',
@@ -15,6 +18,10 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+
+    // import sorting
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
 
     // disallow else after a return in an if
     'no-else-return': ['error', { allowElseIf: false }],
@@ -52,5 +59,6 @@ module.exports = {
     // require the use of === and !==
     eqeqeq: ['error', 'always', { null: 'ignore' }],
   },
+
   ignorePatterns: ['dist/', '.eslintrc.js'], // Avoid linting on the dist folder and, ironically, this file too
 };
