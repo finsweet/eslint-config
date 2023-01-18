@@ -1,5 +1,11 @@
 # @finsweet/eslint-config
 
+## 2.0.1
+
+### Patch Changes
+
+- 7117b7a: chore: update peerDependencies
+
 ## 2.0.0
 
 ### Major Changes
