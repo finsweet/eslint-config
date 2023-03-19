@@ -1,5 +1,11 @@
 # @finsweet/eslint-config
 
+## 2.0.3
+
+### Patch Changes
+
+- 83f7c26: whitelist console.error warnings
+
 ## 2.0.2
 
 ### Patch Changes
