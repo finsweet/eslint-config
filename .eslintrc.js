@@ -1,7 +1,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser', // Specifies the ESLint parser
   parserOptions: {
-    ecmaVersion: 2021, // Allows for the parsing of modern ECMAScript features
+    ecmaVersion: 'latest', // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
   },
   extends: [
@@ -50,8 +50,8 @@ module.exports = {
     // disallow unnecessary constructor
     'no-useless-constructor': 'error',
 
-    // disallow use of console
-    'no-console': 'warn',
+    // disallow use of console statements (except for console.error)
+    'no-console': ['warn', { allow: ['error'] }],
 
     // disallow the unary operators ++ and --
     'no-plusplus': ['warn', { allowForLoopAfterthoughts: true }],
