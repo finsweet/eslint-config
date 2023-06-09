@@ -1,6 +1,6 @@
 {
   "name": "@finsweet/eslint-config",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Finsweet's official configuration for ESLint.",
   "main": ".eslintrc.js",
   "devDependencies": {

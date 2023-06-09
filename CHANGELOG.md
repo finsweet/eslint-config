@@ -1,5 +1,11 @@
 # @finsweet/eslint-config
 
+## 2.0.5
+
+### Patch Changes
+
+- 67a2c32: chore: updated dependencies
+
 ## 2.0.4
 
 ### Patch Changes
