@@ -1,5 +1,11 @@
 # @finsweet/eslint-config
 
+## 2.0.7
+
+### Patch Changes
+
+- ff30e3f: chore: updated dependencies
+
 ## 2.0.6
 
 ### Patch Changes
