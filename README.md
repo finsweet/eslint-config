@@ -1,17 +1,25 @@
 # eslint-config
 
-Finsweet's official configuration for ESLint.
+Finsweet's official flat configuration for ESLint.
 
 ## How to start
 
 First, install all the devDependencies:
 
 ```bash
-pnpm add -D eslint prettier typescript @finsweet/eslint-config eslint-config-prettier eslint-plugin-prettier eslint-plugin-simple-import-sort @typescript-eslint/eslint-plugin @typescript-eslint/parser
+pnpm add -D @finsweet/eslint-config eslint @eslint/js prettier typescript eslint-config-prettier eslint-plugin-prettier eslint-plugin-simple-import-sort typescript-eslint
 ```
 
-Then, create a `.eslintrc.json` file with the following configuration:
+Then, create a `eslint.config.js` file with the following configuration:
 
-```json
-{ "extends": ["@finsweet"] }
+```js
+import finsweetConfigs from '@finsweet/eslint-config';
+
+export default [
+  ...finsweetConfigs,
+  {
+    /*... */
+  },
+  // ...
+];
 ```
