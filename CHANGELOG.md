@@ -1,5 +1,11 @@
 # @finsweet/eslint-config
 
+## 3.0.0
+
+### Major Changes
+
+- ae769f5: breaking: migrate to ESLint flat configuration
+
 ## 2.0.7
 
 ### Patch Changes
