@@ -1,5 +1,11 @@
 # @finsweet/eslint-config
 
+## 3.0.1
+
+### Patch Changes
+
+- c3738b4: fix: type module
+
 ## 3.0.0
 
 ### Major Changes
