@@ -1,12 +1,13 @@
-import eslint from '@eslint/js';
-import prettierRecommended from 'eslint-plugin-prettier/recommended';
+import js from '@eslint/js';
+import { defineConfig } from 'eslint/config';
+import prettier from 'eslint-plugin-prettier/recommended';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
-import tseslint from 'typescript-eslint';
+import ts from 'typescript-eslint';
 
-export default tseslint.config(
-  prettierRecommended,
-  eslint.configs.recommended,
-  ...tseslint.configs.recommended,
+export default defineConfig(
+  js.configs.recommended,
+  ts.configs.recommended,
+  prettier,
   {
     name: 'finsweet/files-ignoring',
     ignores: ['**/dist/**'],
