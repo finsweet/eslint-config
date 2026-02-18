@@ -1,5 +1,11 @@
 # @finsweet/eslint-config
 
+## 3.0.4
+
+### Patch Changes
+
+- 7fc4e68: chore: updated dependencies
+
 ## 3.0.3
 
 ### Patch Changes
@@ -78,7 +84,6 @@
 ### Minor Changes
 
 - 8cf0daf: chores:
-
   - Updated dependencies.
   - Migrated repo to use pnpm.
   - Implemented @changesets CLI.
